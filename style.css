@@ -5,7 +5,7 @@ body {
     height: 100vh; 
 }
 
-/* Modifica la clase .contenedor para que cubra toda la pantalla */
+
 .contenedor {
     background-color: rgb(76, 227, 154);
     width: 100vw;   
@@ -33,9 +33,9 @@ button:hover {
     background-color: #5a96d6;
 }
 h2 {
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: bold;
-    margin: 2px 0;
+    margin: 4px 0;
 }
 
 p {
