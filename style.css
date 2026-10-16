@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh; 
+}
+
+/* Modifica la clase .contenedor para que cubra toda la pantalla */
+.contenedor {
+    background-color: rgb(76, 227, 154);
+    width: 100vw;   
+    height: 100vh; 
+    margin: 0;      
+    padding: 20px;
+    box-sizing: border-box; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+button {
+    background-color: #dc2424;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+   
+}
+
+button:hover {
+    background-color: #5a96d6;
+}
+h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 2px 0;
+}
+
+p {
+    font-size: 2rem;
+    margin: 5px 0;
+}
+
+button {
+    font-size: 1.0rem; 
+    padding: 20px 60px;
+}
